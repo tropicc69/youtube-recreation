@@ -1,0 +1,17 @@
+p {
+  font-family: Roboto, Arial;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+body {
+  margin: 0px;
+  padding-top: 80px;
+  padding-left: 255px;
+  padding-right: 25px;
+  height: 2000px;
+}
+
+html {
+  scrollbar-color: #606060 transparent;
+}

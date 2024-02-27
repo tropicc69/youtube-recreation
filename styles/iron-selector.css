@@ -1,0 +1,44 @@
+.iron-selector {
+  background-color: white;
+  position: fixed;
+  top: 55px;
+  left: 263px;
+  width: 2612px;
+  max-width: 2612px;
+  height: 56px;
+  display: flex;
+  flex-direction: row;
+  justify-content: left;
+  z-index: 200;
+  align-items: center;
+}
+
+.iron-button {
+  font-family: Roboto, Arial;
+  font-size: 14px;
+  font-weight: 500;
+  cursor: pointer;
+  background-color: #f2f2f2;
+  color: black;
+  border: none;
+  padding: 6px 12px 6px 12px;
+  margin: 13px 12px 12px 0px;
+  user-select: none;
+  line-height: 20px;
+  border-radius: 8px;
+  min-width: 12px;
+  transition: background-color 0.5s cubic-bezier(0.05, 0, 0, 1) 0s;
+}
+
+.iron-button:hover {
+  background-color: #e5e5e5;
+}
+
+.selected-button {
+  background-color: black;
+  color: white;
+}
+
+.selected-button:hover {
+  background-color: black;
+}

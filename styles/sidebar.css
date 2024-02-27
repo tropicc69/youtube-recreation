@@ -1,0 +1,129 @@
+.sidebar {
+  position: fixed;
+  left: 0px;
+  bottom: 0px;
+  top: 55px;
+  background-color: white;
+  width: 228px;
+  scrollbar-width: thin;
+  overflow-y: hidden;
+  overflow-x: hidden;
+  z-index: 200;
+  padding-right: 12px;
+  scrollbar-color: #909090 transparent;
+}
+
+.sidebar:hover {
+  overflow-y: auto;
+}
+
+
+.sidebar-container {
+  background-color: white;
+  height: 426px;
+  padding: 12px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.selected-sidebar-action {
+  font-family: Roboto, Arial, sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.sidebar-action {
+  font-weight: 300;
+  flex: 1 1 1e-09px;
+}
+
+.selected-sidebar-button {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  background-color: #ffffff;
+  position: relative;
+  padding: 0px 12px;
+  height: 40px;
+  width: 180px;
+  justify-content: left;
+  min-width: 0px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.selected-sidebar-button:hover {
+  background-color: #e6e6e6;
+}
+
+.sidebar-buttons:hover {
+  background-color: #f2f2f2;
+}
+
+.selected-sidebar {
+  background-color: #f2f2f2;
+}
+
+.sidebar-icon {
+  height: 24px;
+  width: 24px;
+  margin-right: 24px;
+  margin-top: 1px;
+  user-select: none;
+}
+
+.mini-container {
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+  margin-top: 12px;
+  padding-top: 12px;
+  padding-right: 215px;
+}
+
+.enlarged-text {
+  font-size: 16px;
+  padding-right: 8px;
+}
+
+.right-arrow-icon {
+  margin-top: 1px;
+  user-select: none;
+}
+
+.sidebar-container2 {
+  height: 352px;
+  padding: 12px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.title-text {
+  font-family: Roboto, Arial;
+  font-weight: 500;
+  padding: 7px 12px 4px 12px;
+  margin-bottom: 1px;
+}
+
+.sidebar-channel-icon {
+  height: 24px;
+  width: 24px;
+  object-fit: cover;
+  border-radius: 50px;
+  margin-right: 24px;
+  margin-top: 1px;
+}
+
+.live-icon {
+  padding-top: 1px;
+  width: 16px;
+  user-select: none;
+}
+
+.new-video-dot-icon {
+  padding-top: 1px;
+  width: 24px;
+  height: 24px;
+  user-select: none;
+}
+
+.new-video-dot {
+  padding-right: 75px;
+  white-space: nowrap;
+}
